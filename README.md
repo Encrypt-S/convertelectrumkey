@@ -18,8 +18,12 @@ This is a tool to help users get their coins out of the NavCoin Electrum Wallet.
 6. Choose Location where Private Keys will be saved
 7. Export
 8. Download this repo:
-   - (Without using git) Download this git repo as a zip and extract it. In your terminal navigate to the extracted directory.
-   - (Using git) Open a terminal (Unix/Mac) or CMD/Powershell (Windows) and type:
+   - (From your web browser) From this git repo's webpage, find the "Clone or download" button and click it, then click "Download Zip". After that, extract it. Then run the following:
+   ```
+   cd /your/download/direcotory/convertelectrumkey-master/
+   ```
+   Depending on how you extracted the .zip file you may need to cd inside another folder inside that.
+   - (Using the git command) Open a terminal (Unix/Mac) or CMD/Powershell (Windows) and type:
    ```
    git clone https://github.com/aguycalled/convertelectrumkey && cd convertelectrumkey
    ```
@@ -36,7 +40,7 @@ NavCoin Address: NXTyigN9qDZuTi27uyLXzoegYJkt5DqBoE Private Key: PD44ud5b89d4sz4
 NavCoin Address: NdgQZtSTyzJPSkgd6av4NccuLQgcjEsXZH Private Key: PCHXHZ82ua4Zop9sokbc3Z2cvnP7UuHyr9zGPakzpTpNzbvYNsC9
 ```
 10. Go to NavCoin Core Wallet
-11. Help -> Debug Window
+11. In the toolbar click: Help -> Debug Window
 12. Import the different private keys using 'importprivkey'. e.g:
 ```
 importprivkey PD1SKRBoKftg9fqGVUasfVUtu4iDVsSoMb68ZRgFKce8PUKt29tr
