@@ -74,3 +74,8 @@ importprivkey PD1SKRBoKftg9fqGVUasfVUtu4iDVsSoMb68ZRgFKce8PUKt29tr
 
 
 For further troubleshooting assistance, visit the [NavCoin Discord](https://discordapp.com/invite/y4Vu9jw)
+
+
+License
+---------------------
+Distributed under the [MIT software license](http://www.opensource.org/licenses/mit-license.php).
